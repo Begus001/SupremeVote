@@ -18,7 +18,7 @@ if ($num_votes > 0) {
 
         if ($limit > new DateTime()) {
 
-            echo "<form action='vote.php' method='post' enctype='multipart/form-data'>";
+            echo "<form action='actions/vote.php' method='post' enctype='multipart/form-data'>";
             echo utf8_decode("<h2 id='vote$i'>{$current['name']} <input type='submit' value='x' name='del'></h2>");
 
             $k = 0;

@@ -1,6 +1,6 @@
 <?php
 
-include_once("config/config.php");
+include_once("../config/config.php");
 
 session_start();
 
@@ -17,7 +17,7 @@ if (!$sqlconn) {
 
 if ($_POST['del'] == "x") {
 
-    echo "<form action='actions/delete.php' method='post' enctype='multipart/form-data'>";
+    echo "<form action='delete.php' method='post' enctype='multipart/form-data'>";
 
     if (isset($_SESSION['admin']) && $_SESSION['admin']) {
         echo "<input type='password' name='pw' placeholder='Administrator Passwort' value='".ADMIN_PW."'>";
