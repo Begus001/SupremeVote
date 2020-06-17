@@ -1,10 +1,10 @@
 <?php
 
-define("ADMIN_PW", "4209111337");
+define("ADMIN_PW", "SET_PASSWORD");
 
 define("DB_ADDR", "127.0.0.1");
 define("DB_USER", "root");
-define("DB_PW", "4209111337");
+define("DB_PW", "SET_PASSWORD");
 define("DB_NAME", "supreme_voting");
 $sqlconn = mysqli_connect(DB_ADDR, DB_USER, DB_PW, DB_NAME);
 

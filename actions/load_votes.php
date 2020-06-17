@@ -50,7 +50,7 @@ if ($num_votes > 0) {
             echo "</form>";
             echo "<br><br>";
         } else {
-            echo "<form action='vote.php' method='post' enctype='multipart/form-data'>";
+            echo "<form action='actions/vote.php' method='post' enctype='multipart/form-data'>";
             echo utf8_decode("<h2 id='vote$i' style='color:mediumseagreen'>{$current['name']} (abgeschlossen) <input type='submit' value='x' name='del'></h2>");
 
             $k = 0;
